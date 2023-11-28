@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI-BoldItalic.eot');
+  src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
+      url('./assets/fonts/SegoeUI/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI-BoldItalic.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI-BoldItalic.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI.eot');
+  src: local('Segoe UI'), local('SegoeUI'),
+      url('./assets/fonts/SegoeUI/SegoeUI.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI-SemiBold.eot');
+  src: local('Segoe UI Semibold'), local('SegoeUI-SemiBold'),
+      url('./assets/fonts/SegoeUI/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI-SemiBold.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI-SemiBold.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI-Light.eot');
+  src: local('Segoe UI Light'), local('SegoeUI-Light'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Light.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Light.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI-Bold.eot');
+  src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Bold.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Bold.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('./assets/fonts/SegoeUI/SegoeUI-Italic.eot');
+  src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Italic.woff2') format('woff2'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Italic.woff') format('woff'),
+      url('./assets/fonts/SegoeUI/SegoeUI-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #03060e;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/** Top Path */
+
+.screen-path {
+  background-image: url("/path-top.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .screen-path {
+    background-size: auto;
+    background-position: top;
+  }
+}
+
+/** Bottom Path */
+
+.screen-path-bottom {
+  background-image: url("/path-bottom.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom left;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .screen-path-bottom {
+    background-size: auto;
+    background-position: bottom;
+  }
+}
+
+/** Gradient */
+
+.bg-blue-gradient {
+  background: #09EBFE;
+  background: linear-gradient(
+    90deg,
+    #09EBFE 0%,
+    #3F70F8 82%
+  );
+}
+
+.bg-blue-gradient-reverse {
+  background: #3F70F8;
+  background: linear-gradient(
+    90deg,
+    #3F70F8 0%,
+    #09EBFE 82%
+  );
+}
+
+.box-shadow {
+  box-shadow: -2px 2px 2px rgba(89, 89, 89, 0.812);
+}
+
+/** Team Image */
+
+.member-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 255, 0.003), rgba(0, 64, 255, 0.693));
+  z-index: 1;
+}
+
+.member-info {
+  position: relative;
+  z-index: 2;
+}
+
+/** Team Arrow Button */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  transform: scale(0.5);
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: transparent; /* Cambia el color deseado */
+}
+
+/** Collapse Navbar */
+
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  height: calc(4px * 3 + 11px * 2);
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: calc(4px / 2);
+  background: #230901;
+  color: inherit;
+  opacity: 1;
+  transition: none 0.55s cubic-bezier(0.5, -0.35, 0.35, 1.5) 0s;
+}
+
+/** Degraded Text */
+
+.degraded-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.degraded-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(to bottom, transparent, #03060e);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 767px) {
+  .degraded-text::before {
+    background: linear-gradient(to bottom, transparent, transparent);
+  }
+}
+
+@media (max-width: 600px) {
+  img.laptop-img {
+    display: none;
+  }
+}
