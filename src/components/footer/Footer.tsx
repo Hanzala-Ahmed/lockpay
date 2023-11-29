@@ -18,14 +18,6 @@ const Footer = () => {
               <img src='/x-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
             </a>
 
-            <a href='#'>
-              <img src='/fb-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
-            </a>
-
-            <a href='#'>
-              <img src='/insta-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
-            </a>
-
             <a href='/SmartContract_Audit_Solidproof_LockPay.pdf'>
               <img
                 src='/github-icon-new.png'
@@ -37,7 +29,7 @@ const Footer = () => {
         </div>
 
         <div
-          className={`${styles.parraph} flex flex-col small:flex-row small:w-[70%] justify-around`}>
+          className={`${styles.parraph} flex flex-col small:flex-row small:w-[35%] justify-around`}>
           <div className='flex gap-20 small:gap-[100px] flex-wrap small:flex-nowrap'>
             <div className='flex flex-col gap-[16px]'>
               <p className='text-white font-semibold'>Quicklinks</p>
@@ -71,21 +63,6 @@ const Footer = () => {
                 Privacy Policy
               </a>
             </div>
-            <div className='flex flex-col gap-[16px] items-start'>
-              <p className='text-white font-semibold'>Need Help?</p>
-              <div className='hover:text-white flex gap-[8px] justify-center items-center'>
-                <img src='/location.png' alt='' className='w-[20px]' />
-                <span>1901 Thornridge Cir. Shiloh, Hawaii</span>
-              </div>
-              <div className='hover:text-white flex gap-[8px] justify-center items-center'>
-                <img src='/mail.png' alt='' className='w-[20px]' />
-                <span>support@lockpay.com</span>
-              </div>
-              <div className='hover:text-white flex gap-[8px] justify-center items-center'>
-                <img src='/calling.png' alt='' className='w-[20px]' />
-                <span>+123 456 7890</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -93,14 +70,6 @@ const Footer = () => {
       <div className='gap-6 flex small:hidden'>
         <a href='https://x.com/Lockpay_io?t=33VwaUSutkSw8cz7nW2ZQA&s=09'>
           <img src='/x-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
-        </a>
-
-        <a href='#'>
-          <img src='/fb-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
-        </a>
-
-        <a href='#'>
-          <img src='/insta-icon-new.png' alt='x-icon' className='hover:scale-105 w-[46px]' />
         </a>
 
         <a href='/SmartContract_Audit_Solidproof_LockPay.pdf'>
