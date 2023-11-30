@@ -48,7 +48,7 @@ const Footer = () => {
                 Whitepaper
               </a>
             </div>
-            <div className='flex flex-col gap-[16px]'>
+            <div className='flex flex-col gap-[16px] capitalize'>
               <p className='text-white font-semibold'>Support</p>
               <Link to='/about' className='hover:text-white'>
                 About us
@@ -56,12 +56,12 @@ const Footer = () => {
               <a href={faqLink} className='hover:text-white'>
                 FAQ
               </a>
-              <a href='https://form.jotform.com/233043670186454' className='hover:text-white'>
+              {/* <a href='https://form.jotform.com/233043670186454' className='hover:text-white'>
                 Terms & Conditions
               </a>
               <a href='https://form.jotform.com/233043670186454' className='hover:text-white'>
                 Privacy Policy
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

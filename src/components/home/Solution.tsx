@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { SOLUTION } from '../../constants';
 import { styles } from '../../style';
 import PrimaryButton from '../PrimaryButton';
+import { Link } from 'react-router-dom';
 
 interface SolutionProps {}
 
@@ -55,10 +56,11 @@ const Solution: FC<SolutionProps> = () => {
               </div>
             </div>
 
-            <div
+            <Link
+              to={'/usecases'}
               className={`group-hover:flex absolute hidden bottom-1 h-[152px] z-50 w-[99%] rounded-b-[24px] bg-gradient-to-b from-[#03060e12] via-[#03060ead] to-[#03060E] justify-center items-center `}>
               <PrimaryButton text='View More' className='!text-[14px] !rounded-[6px]' />
-            </div>
+            </Link>
           </div>
         ))}
       </main>

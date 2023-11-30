@@ -43,10 +43,11 @@ const AsideBar = () => {
             </div>
 
             <ul
-              className={`${styles.parraph} list-none flex gap-16 justify-center items-center flex-1 flex-col tracking-widest`}>
+              className={`${styles.parraph} list-none flex gap-16 justify-center items-center flex-1 flex-col tracking-widest capitalize`}>
               <Link to='/' className='text-white' onClick={() => handleLinkClick('/')}>
                 Home
               </Link>
+              a
               <Link to={'/about'} onClick={() => handleLinkClick('/about')}>
                 About us
               </Link>

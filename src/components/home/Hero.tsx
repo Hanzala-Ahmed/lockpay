@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='flex flex-col gap-[40px] items-start pt-10 small:pr-4 small:px-0 mt-[20px]'>
           <div className='flex flex-col gap-6'>
             <h1 className='text-[44px] small:text-[56px] font-semibold leading-[56px] font-segoe'>
-              Next Generation lockers for Web3
+              Next Generation Lockers for Web3
             </h1>
             <p
               className={`${styles.parraph} pr-2 small:pr-0 !text-[24px] font-[300] !leading-[34px]`}>

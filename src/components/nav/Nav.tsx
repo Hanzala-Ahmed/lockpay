@@ -14,7 +14,7 @@ const Nav: React.FC = () => {
       </Link>
 
       <div className='flex xlarge:w-[60%] justify-between items-center small:gap-[30px] medium:gap-[100px]'>
-        <div className='hidden xsmall:flex text-[16px] text-gray-300 gap-14 small:gap-8 medium:gap-14'>
+        <div className='hidden xsmall:flex text-[16px] text-gray-300 gap-14 small:gap-8 medium:gap-14 capitalize'>
           <ScrollToTopLink to='/' className='text-white'>
             Home
           </ScrollToTopLink>

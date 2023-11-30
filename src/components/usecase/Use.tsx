@@ -86,7 +86,7 @@ const Use = () => {
         </div>
 
         <img
-          src='/use1-new.png'
+          src='/use1-new-min.png'
           alt='usecase1'
           className='absolute right-0 top-0 hidden small:block w-[57%]'
         />
@@ -102,7 +102,7 @@ const Use = () => {
 
         <div className='small:pr-28 flex flex-col small:flex-row items-start justify-end relative'>
           <img
-            src='/use2-new.png'
+            src='/use2-new-min.png'
             alt='usecase2'
             className='absolute left-0 -top-32 hidden small:block w-[57%]'
           />
@@ -217,7 +217,7 @@ const Use = () => {
         </div>
 
         <img
-          src='/use3-new.png'
+          src='/use3-new-min.png'
           alt='usecase3'
           className='absolute right-0 hidden small:block w-[57%]'
         />
