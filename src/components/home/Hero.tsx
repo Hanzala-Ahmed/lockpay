@@ -9,7 +9,7 @@ const Hero = () => {
       className={`flex flex-col min-h-screen w-full small:mb-32 pt-28 small:pt-32 screen-path gap-10`}>
       <div className='w-full justify-between gap-12 small:gap-0 flex flex-col small:flex-row small:pl-28'>
         {' '}
-        <div className='flex flex-col gap-[40px] items-start pt-10 small:pr-4 small:px-0 mt-[20px]'>
+        <div className='flex flex-col gap-[40px] items-start pt-10 small:pr-4 small:px-0 mt-[20px] px-4'>
           <div className='flex flex-col gap-6'>
             <h1 className='text-[44px] small:text-[56px] font-semibold leading-[56px] font-segoe'>
               Next Generation Lockers for Web3
@@ -29,7 +29,7 @@ const Hero = () => {
           </Link>
         </div>
         <img
-          src='/desktop.png'
+          src='/desktop-new.png'
           alt='desktop'
           className='small:mx-none mx-auto block max-w-full small:max-w-[63%]'
         />

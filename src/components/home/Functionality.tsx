@@ -51,19 +51,23 @@ const Functionality = () => {
         </div>
       </div>
 
-      <img src='/locker.png' alt='desktop' className='z-20 small:pt-10 hidden small:block' />
-
       <img
+        src='/locker-new.png'
+        alt='desktop'
+        className='z-20 small:pt-10 hidden small:block w-[50%]'
+      />
+
+      {/* <img
         src='/light-new.png'
         alt='light'
         className='absolute right-0 -top-20 hidden small:block w-[320px] small:w-[930px]'
-      />
+      /> */}
       {/* Responsive Light */}
-      <img
+      {/* <img
         src='/light-responsive-new.png'
         alt='light responsive'
         className='w-full block small:hidden'
-      />
+      /> */}
     </div>
   );
 };

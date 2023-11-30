@@ -6,7 +6,7 @@ const Lockpay = () => {
   return (
     <main className='w-full justify-between small:items-center flex flex-col small:flex-row small:pb-10 relative'>
       <div className='relative hidden small:flex'>
-        <img src='/mobile-new.png' alt='desktop' className='z-0 w-[1012px]' />
+        <img src='/mobile-new2.png' alt='desktop' className='z-0 w-[1012px]' />
         <img
           src='/chart-left-new.png'
           alt='desktop'
